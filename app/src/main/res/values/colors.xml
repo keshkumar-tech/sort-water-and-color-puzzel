@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Background Colors -->
+    <color name="bg_dark">#0F0C29</color>
+    <color name="bg_dark_gradient_start">#0F0C29</color>
+    <color name="bg_dark_gradient_end">#302B63</color>
+
+    <!-- UI Element Colors -->
+    <color name="glass_white">#40FFFFFF</color>
+    <color name="glass_stroke">#80FFFFFF</color>
+    <color name="button_purple">#7B61FF</color>
+    <color name="button_purple_glow">#4D7B61FF</color>
+    <color name="button_green">#4CAF50</color>
+    <color name="text_secondary">#B0B0B0</color>
+
+    <!-- Liquid Colors -->
+    <color name="liquid_red">#FF4B2B</color>
+    <color name="liquid_blue">#00D2FF</color>
+    <color name="liquid_yellow">#FFD200</color>
+    <color name="liquid_green">#1D976C</color>
+    <color name="liquid_purple">#8E2DE2</color>
+    <color name="liquid_orange">#F09819</color>
+
+    <!-- Victory Screen -->
+    <color name="victory_yellow">#FFD700</color>
+    <color name="overlay_dark">#CC000000</color>
+</resources>

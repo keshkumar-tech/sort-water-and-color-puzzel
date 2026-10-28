@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="180dp"
+    android:viewportWidth="60"
+    android:viewportHeight="180">
+
+    <!-- Bottle Body Background (The "Glass" interior) -->
+    <path
+        android:pathData="M22,10 L38,10 C40,10 41,11 41,13 L41,55 C41,65 52,70 52,85 L52,165 C52,175 48,180 30,180 C12,180 8,175 8,165 L8,85 C8,70 19,65 19,55 L19,13 C19,11 20,10 22,10 Z"
+        android:fillColor="#0DFFFFFF" />
+
+    <!-- Bottle Outline (Thick professional glass look) -->
+    <path
+        android:pathData="M22,8 L38,8 C40,8 41,9 41,11 L41,55 C41,65 52,70 52,85 L52,165 C52,175 48,180 30,180 C12,180 8,175 8,165 L8,85 C8,70 19,65 19,55 L19,11 C19,9 20,8 22,8 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#B3FFFFFF" />
+
+    <!-- Reflection Highlights -->
+    <path
+        android:pathData="M16,90 L16,155"
+        android:strokeWidth="3.5"
+        android:strokeColor="#33FFFFFF"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M44,100 L44,130"
+        android:strokeWidth="1.5"
+        android:strokeColor="#1AFFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- Rim Detail -->
+    <path
+        android:pathData="M20,15 L40,15"
+        android:strokeWidth="1.2"
+        android:strokeColor="#80FFFFFF" />
+</vector>

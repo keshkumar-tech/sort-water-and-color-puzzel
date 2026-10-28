@@ -1,0 +1,14 @@
+# Normalize line endings to LF in the repository
+* text=auto eol=lf
+
+# Gradle wrapper must stay executable on Unix-like systems
+gradlew text eol=lf
+*.bat text eol=crlf
+
+# Binary assets - never touch these
+*.jar   binary
+*.webp  binary
+*.png   binary
+*.jpg   binary
+*.ttf   binary
+*.otf   binary

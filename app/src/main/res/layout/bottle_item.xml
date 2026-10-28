@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="180dp"
+    android:layout_margin="12dp"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <!-- Bottle Cap (Capped when sorted) -->
+    <ImageView
+        android:id="@+id/bottleCap"
+        android:layout_width="32dp"
+        android:layout_height="22dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/bottle_cap"
+        android:visibility="gone"
+        android:elevation="5dp" />
+
+    <!-- Sparkle/Chill Effect -->
+    <ImageView
+        android:id="@+id/sparkleEffect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_sparkle"
+        android:visibility="gone"
+        android:scaleType="centerInside"
+        android:alpha="0" />
+
+    <!-- The Liquid Container - Increased top margin to keep liquid in the body -->
+    <LinearLayout
+        android:id="@+id/liquidContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <!-- Liquid layers -->
+    </LinearLayout>
+
+    <!-- Glass Bottle Overlay -->
+    <ImageView
+        android:id="@+id/bottleOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bottle_vector"
+        android:elevation="2dp" />
+
+</FrameLayout>

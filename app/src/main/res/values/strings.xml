@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Water and Color Sort</string>
+    <string name="level_format">Level %d</string>
+    <string name="victory">VICTORY</string>
+    <string name="water_sort">WATER SORT</string>
+    <string name="settings">Settings</string>
+    <string name="audio">Audio</string>
+    <string name="music">Music</string>
+    <string name="vibration">Vibration</string>
+    <string name="notify">Notify</string>
+    <string name="continue_text">Continue</string>
+    <string name="remove_ad">Remove AD</string>
+    <string name="ad_banner">AD BANNER</string>
+    <string name="undo">Undo</string>
+    <string name="restart">Restart</string>
+    <string name="add_bottle">Add Bottle</string>
+    <string name="themes">Themes</string>
+    <string name="start">Start</string>
+    <string name="privacy_policy_accept">Accept the Privacy Policy</string>
+    <string name="tap_to_pick">Click bottle to pick up</string>
+    <string name="tap_to_pour">Select destination bottle</string>
+    <string name="chest_desc">Chest</string>
+    <string name="gallery_desc">Gallery</string>
+    <string name="next_level">Next Level</string>
+    <string name="quit">Quit</string>
+    <string name="confirm_quit">Do you want to quit the game?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit_app">Do you want to exit?</string>
+</resources>
